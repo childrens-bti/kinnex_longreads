@@ -142,10 +142,10 @@ inputs:
       name: IsoSeq_v2_primers_12.fasta
   lima_threads:
     type: int?
-    default: 36
+    default: 32
   lima_ram_gb:
     type: int?
-    default: 32
+    default: 64
   
   # Refine options
   refine_threads:
@@ -169,7 +169,7 @@ inputs:
     default: 32
   cluster_ram_gb:
     type: int?
-    default: 48
+    default: 64
   cluster_singletons:
     type: boolean?
     default: false
@@ -187,7 +187,7 @@ inputs:
     doc: "Alignment method. Supported values: pbmm2, minimap2, or ultra. minimap2 uses GTF-derived junctions; ultra uses a GTF-derived uLTRA index."
   pbmm2_threads:
     type: int?
-    default: 36
+    default: 32
   pbmm2_preset:
     type: string?
     default: ISOSEQ
@@ -212,7 +212,7 @@ inputs:
   # minimap2 options
   minimap2_threads:
     type: int?
-    default: 36
+    default: 32
   minimap2_sort_threads:
     type: int?
     default: 4
@@ -226,7 +226,7 @@ inputs:
   # uLTRA options
   ultra_threads:
     type: int?
-    default: 36
+    default: 32
   ultra_sort_threads:
     type: int?
     default: 4

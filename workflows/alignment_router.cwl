@@ -27,7 +27,7 @@ inputs:
     default: 5
   pbmm2_threads:
     type: int?
-    default: 36
+    default: 32
   pbmm2_sort:
     type: boolean?
     default: true
@@ -48,14 +48,14 @@ inputs:
     default: 5
   minimap2_threads:
     type: int?
-    default: 36
+    default: 32
   minimap2_sort_threads:
     type: int?
     default: 4
 
   ultra_threads:
     type: int?
-    default: 36
+    default: 32
   ultra_sort_threads:
     type: int?
     default: 4

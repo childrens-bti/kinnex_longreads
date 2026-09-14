@@ -391,10 +391,10 @@ outputs/kinnex_output_or_multi_smrt_cells_example/
 ### Recommended Configuration
 
 For full production datasets:
-- **CPU**: 16+ cores
-- **RAM**: 64-128 GB
+- **CPU**: 32+ cores for the default thread settings
+- **RAM**: 64 GB minimum; 128 GB provides additional headroom for large merge and clustering jobs
 - **Storage**: 500 GB - 1 TB
-- **EC2 Instance**: r6i.4xlarge or r6i.8xlarge
+- **EC2 Instance**: c5.9xlarge (36 vCPUs, 72 GiB RAM) meets the default requirements. Use a larger memory-optimized instance for unusually large merge or clustering jobs.
 
 ### Factors Affecting Requirements
 
